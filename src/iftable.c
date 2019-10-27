@@ -25,7 +25,11 @@
 #include "linux_list.h"
 
 /**
- * \defgroup iftable Functions in iftable.c
+ * \defgroup iftable Functions in iftable.c [DEPRECATED]
+ * This documentation is provided for the benefit of maintainers of legacy code.
+ *
+ * New applications should use
+ * [libmnl](https://netfilter.org/projects/libmnl/doxygen/html/).
  * @{
  */
 

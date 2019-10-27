@@ -55,12 +55,23 @@
 /**
  * \mainpage
  *
- * libnfnetlink is the bottom-level communication between the kernel and
- * userspace
+ * Deprecated
+ * ---
+ * New applications should use
+ * [libmnl](https://netfilter.org/projects/libmnl/doxygen/html/).
+ *
+ * [libnetfilter_queue]
+ * (https://netfilter.org/projects/libnetfilter_queue/doxygen/html/)
+ * now provides a set of helpers for libmnl, in addition to those it provides
+ * for libnfnetlink (which are now deprecated).
  */
 
 /**
- * \defgroup libnfnetlink Functions in libnfnetlink.c
+ * \defgroup libnfnetlink Functions in libnfnetlink.c [DEPRECATED]
+ * This documentation is provided for the benefit of maintainers of legacy code.
+ *
+ * New applications should use
+ * [libmnl](https://netfilter.org/projects/libmnl/doxygen/html/).
  * @{
  */
 
