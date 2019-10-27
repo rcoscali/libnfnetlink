@@ -52,6 +52,18 @@
 
 #include <libnfnetlink/libnfnetlink.h>
 
+/**
+ * \mainpage
+ *
+ * libnfnetlink is the bottom-level communication between the kernel and
+ * userspace
+ */
+
+/**
+ * \defgroup libnfnetlink Functions in libnfnetlink.c
+ * @{
+ */
+
 #ifndef NETLINK_ADD_MEMBERSHIP
 #define NETLINK_ADD_MEMBERSHIP 1
 #endif
@@ -59,7 +71,6 @@
 #ifndef SOL_NETLINK
 #define SOL_NETLINK 270
 #endif
-
 
 #define nfnl_error(format, args...) \
 	fprintf(stderr, "%s: " format "\n", __FUNCTION__, ## args)
@@ -1572,3 +1583,7 @@ int nfnl_query(struct nfnl_handle *h, struct nlmsghdr *nlh)
 
 	return nfnl_catch(h);
 }
+
+/**
+ * @}
+ */

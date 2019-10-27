@@ -28,6 +28,6 @@ dnl--------------------------------
 
 
 dnl Output the makefile
-AC_CONFIG_FILES([Makefile src/Makefile include/Makefile
+AC_CONFIG_FILES([Makefile src/Makefile include/Makefile doxygen.cfg
 	include/libnfnetlink/Makefile utils/Makefile libnfnetlink.pc])
 AC_OUTPUT

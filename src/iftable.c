@@ -24,6 +24,11 @@
 #include "rtnl.h"
 #include "linux_list.h"
 
+/**
+ * \defgroup iftable Functions in iftable.c
+ * @{
+ */
+
 struct ifindex_node {
 	struct list_head head;
 
@@ -333,3 +338,7 @@ int nlif_fd(struct nlif_handle *h)
 
 	return -1;
 }
+
+/**
+ * @}
+ */
